@@ -1,5 +1,5 @@
 
-package cliente.controladores;
+package clientenotificacion.controladores;
 
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;

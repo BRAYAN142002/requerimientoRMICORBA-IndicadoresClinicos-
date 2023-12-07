@@ -1,13 +1,11 @@
+
 package servidoralertas.DTO;
 
 import java.io.Serializable;
 
-/**
- *
- * @author brayan
- */
+
 public class PacienteDTO implements Serializable{
-    private int noHabitacion;
+   private int noHabitacion;
     private String nombres;
     private String apellidos;
     private float edad;
@@ -16,7 +14,8 @@ public class PacienteDTO implements Serializable{
         this.noHabitacion = noHabitacion;
         this.nombres = nombres;
         this.apellidos = apellidos;
-        this.edad=edad;   
+        this.edad=edad;
+        
     }
 
     public PacienteDTO() {
@@ -53,4 +52,5 @@ public class PacienteDTO implements Serializable{
     public void setEdad(float edad) {
         this.edad = edad;
     }
+ 
 }

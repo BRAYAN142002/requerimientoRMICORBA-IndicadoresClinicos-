@@ -1,9 +1,9 @@
 
-package cliente.servicios;
-import static cliente.Utilidades.UtilidadesConsola.leerCadena;
-import static cliente.Utilidades.UtilidadesConsola.leerEntero;
-import cliente.Utilidades.UtilidadesRegistroC;
-import cliente.controladores.ControladorCallBackImpl;
+package clientenotificacion.servicios;
+import static clientenotificacion.Utilidades.UtilidadesConsola.leerCadena;
+import static clientenotificacion.Utilidades.UtilidadesConsola.leerEntero;
+import clientenotificacion.Utilidades.UtilidadesRegistroC;
+import clientenotificacion.controladores.ControladorCallBackImpl;
 import java.rmi.RemoteException;
 import servidoralertas.controladores.ControladorGestorNotificacionInt;
 /**

@@ -8,6 +8,6 @@ import java.rmi.RemoteException;
  *
  * @author brayan
  */
-public interface ControladorGestorNotificacionInt extends Remote{
+public interface ControladorGestorNotificacionInt extends Remote {
      public boolean registrarReferenciaRemota(ControladorCallBackInt referencia)throws RemoteException;
 }

@@ -1,4 +1,4 @@
-package cliente.controladores;
+package clientenotificacion.controladores;
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 import servidoralertas.DTO.NotificacionDTO;

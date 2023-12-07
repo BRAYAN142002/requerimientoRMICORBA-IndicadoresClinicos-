@@ -1,5 +1,5 @@
 
-package cliente.Utilidades;
+package clientenotificacion.Utilidades;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
